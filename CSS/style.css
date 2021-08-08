@@ -1,0 +1,244 @@
+@import 'utilites.css';
+
+:root
+{
+    --first:#3DCFD3;
+    --second:#161616;
+    --third:#898989;
+    --fourth:#ffffff;  
+    --fifth:#070606;
+    --sixth:#f2f2f2;
+
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+header{
+    background: var(--second);
+    clip-path: polygon(0 0,100% 0,100% 100%,70% 90%,0 100%);
+}
+
+.container{
+    max-width: 1152px;
+    padding : 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a{
+    color: var(--fourth);
+    text-decoration: none;
+    margin-right:2rem ;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color:var(--first);
+}
+header nav {
+    padding: 2rem 0;
+}
+header nav .branding{
+    margin-right: 3rem;
+}
+.hero .left img{
+    width: 300px;
+}
+.hero .right{
+    color: var(--fourth);
+}
+.hero .right h6{
+    font-size: 2rem;
+    color: var(--first);
+    margin-bottom: 1rem;
+}
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 80;
+    margin-bottom: 1rem;
+    line-height: 1;
+}
+.branding img {
+    width: 100px;
+}
+.hero .right h1 span
+{
+    color: var(--first);
+}
+.hero .right p{
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.hero .right a img{
+    background-color: var(--first);
+}
+.hero .right button{
+    color: var(--first);
+
+}
+.hero .right{
+    margin-top: -7rem;
+}
+section{
+    padding: 4rem;
+}
+section.about .right h1{
+    font-size: 2.5rem;
+    font-weight: 150;
+    margin-bottom: 1rem;
+}
+section.about .right h3{
+    font-size: 2rem;
+    font-weight:50;
+    margin-bottom: 1rem;
+}
+
+section.about .right h1 span{
+    color:var(--first);
+}
+section.about .right p{
+    font-family: 'Lato',sans-serif;
+}
+section.about .right social{
+    display: flex;
+}
+section.about .social a img{
+    margin-top: 5rem;
+    width: 50px;
+    margin-right: 0.6rem;
+}
+section.about{
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+}
+section.about .social a img:hover{
+    background-color: var(--first);
+}
+section.service
+{
+    background-color: var(--sixth);
+}
+section.service h1{
+    display: flex;
+    justify-content: center;
+}
+section.service h1 span{
+    color: var(--first)
+    
+}
+section.service p{
+    font-size: 1rem;
+    font-weight: 2.5;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+section.service .cards-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:2rem;
+    margin-bottom: 25rem;
+    margin-top: 10rem;
+}
+section.service .cards-list .card img{
+    width: 100px;
+    position: absolute;
+    top: 6.5rem;
+    right: 7rem;
+    
+}
+section.service .cards-list .card1 img:hover{
+    background-color: var(--second);
+}
+section.service .cards-list .card img:hover{
+    background-color: var(--second);
+}
+section.service .cards-list .card1 img{
+    width: 100px;
+    position: absolute;
+    top: 6.5rem;
+    right: 7rem;
+}
+section.service .cards-list .card{
+    background-color: var(--fourth);
+    padding: 3rem 2rem;
+    position: relative;
+    text-align: center;
+}
+section.service .cards-list .card1{
+    background-color: var(--fourth);
+    padding: 3rem 2rem;
+    position: relative;
+    text-align: center;
+}
+section.service .cards-list .card2{
+    background-color: var(--fourth);
+    padding: 3rem 2rem;
+    position: relative;
+    text-align: center;
+}
+section.work .my-work img{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 500px;
+}
+section.work .my-work {
+    padding: 3rem 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+}
+
+section.work h1{
+    display: flex;
+    color: var(--second);
+    justify-content: center;
+}
+
+section.work h1 span{
+    color: var(--first);
+}
+section.work p{
+    color: var(--second);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+section.work{
+    background-color: ;
+}
+section.work .my-work{
+    margin-bottom: 10rem;
+}
+section.contact{
+    background-color: rgb(49, 2, 2);
+    text-align: center;
+    color: var(--fourth);
+}
+section.contact p{
+    color: var(--fourth);
+}
+section.contact h1 span{
+    color: var(--first);
+}
+section.contact .contact-details .contact1 img{
+    width: 100px;
+}
+section.contact .contact-details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 3rem;
+}
+section.contact .contact-details .contact1:hover{
+
+    color: var(--first);
+}
